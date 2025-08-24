@@ -41,7 +41,7 @@ We also did a tradition approach by using TF-IDF for the following models.
 2) Random Forest (Default Setting)
 3) Decision Tree( Default Setting)
 
-Hyper-Parameters were also tried on the Feedforward Neural Network using RandomGridSearch.
+Hyper-Parameters were also tried on the Feedforward Neural Network using RandomizedSearchCV.
    
 
 ### Evaluation
@@ -51,11 +51,18 @@ The Higher the Accuracy , the better the model
 
 The Higher the Recall,the better the model as we want to reduce False Negative. It is bettter to classify false cases as postive and get human intervention for assessment.
 
+Lowest performing model is the RNN(LSTM) Model with accuracy of 0.41 with low recall across all the categories of target variables.
+
+Highest performing model is the 2 hidden layers feedforward network with accuracy of 0.90 with the highest recall values across all categories of target variables
+
+Random Forest and Decision both perform better than RNN(LSTM) but worse than the Neural Network.
+
+Hpyer-paramater tuning was thus performed for the best performing model the Feedforward Neural Network with RandomizedSearchCV but accuracy did not perform better after tuning probably with iterations too little.
 
 ## Recommendation and Analysis
 Explain the analysis and recommendations
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+L
 
 ## AI Ethics
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
