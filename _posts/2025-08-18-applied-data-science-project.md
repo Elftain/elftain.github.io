@@ -18,7 +18,7 @@ Below is a brief overview of the work done. Dataset is provided in the link belo
 <img width="1862" height="368" alt="image" src="https://github.com/user-attachments/assets/b7f2786c-743f-44d6-a511-8a19e6be9ffe" />
 
 ### Data Preparation
-Data preparation is categorised into 3 different portion.
+Data preparation is categorised into 3 different portions.
 
 Data-Cleaning and Transfomation: We remove NA rows and also created a new variable called length of sentence.
 
@@ -40,6 +40,8 @@ We also did a tradition approach by using TF-IDF for the following models.
 1) A Simple 2 hidden layer Neural Network with dropout layer
 2) Random Forest (Default Setting)
 3) Decision Tree( Default Setting)
+
+Hyper-Parameters were also tried on the Feedforward Neural Network using RandomGridSearch.
    
 
 ### Evaluation
