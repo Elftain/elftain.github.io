@@ -5,7 +5,10 @@ title: "Applied Data Science Project Documentation"
 categories: ITD214
 ---
 ## Project Background
-This project is about mental welness. 
+Mental health issues such as depression, anxiety, and burnout remain prevalent, particularly among younger generation. Despite growing awareness,  stigma around mental illness still persists and generally people still see mental illness as sign of weakness and shun discussions on mental illness.
+ Mental health issues often go unnoticed early, only to be identified later when treatment becomes more resource-intensive.
+
+We are a team in MOH Office for Healthcare Transformation (MOHT) that is tasked to look at how we can have early detection of mental illness through a data-centric approach. 
 
 
 ## Work Accomplished
