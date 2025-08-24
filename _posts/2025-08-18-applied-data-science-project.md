@@ -7,10 +7,9 @@ categories: ITD214
 ## Project Background
 Mental health issues such as depression, anxiety, and burnout remain prevalent, particularly among younger generation. Despite growing awareness,  stigma around mental illness still persists and generally people still see mental illness as sign of weakness and shun discussions on mental illness.
  Mental health issues often go unnoticed early, only to be identified later when treatment becomes more resource-intensive.
-
 We are a team in MOH Office for Healthcare Transformation (MOHT) that is tasked to look at how we can have early detection of mental illness through a data-centric approach. 
-
-
+Our Team Business goal is to develop a data-driven solution that identifies early warning signs and key contributing factors of mental health challenges among adults, with the aim of enabling timely intervention and reducing the risk of long-term mental health deterioration.
+I will be focusing on analysing social media posts to detect early signs of mental distress (e.g. anxiety, suicidal).
 ## Work Accomplished
 Document your work done to accomplish the outcome
 
