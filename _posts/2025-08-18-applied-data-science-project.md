@@ -28,8 +28,19 @@ Text Vectors Creation: We made use of Text Vectorisaion by Keras for our RNN(LST
 
 Since the data is also skewed. We are did a SMOTE on the data to prevent data biasness.
 
+Due to limited processing power,  we sample 5000 data from the our dataset. We split the data up into 80% train and 20% Test data. The 80% Train data is further split in 80% Train and 20% Validation data.
+
 ### Modelling
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+
+We have explored a few models for sentimental analysis.
+We tried a deep learning model RNN(LSTM) due to its longer term memory and better at text analytics. We have added Dropout layer and early stop to prevent overfitting. Optimiser used: "Adam" and Loss function as Sparse_Categorical_CrossEntropy. Input Vector is Text Vectorisation by Keras.
+
+We also did a tradition approach by using TF-IDF for the following models.
+
+1) A Simple 2 hidden layer Neural Network with dropout layer
+2) Random Forest (Default Setting)
+3) Decision Tree( Default Setting)
+   
 
 ### Evaluation
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
