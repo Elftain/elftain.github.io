@@ -46,7 +46,9 @@ Hyper-Parameters were also tried on the Feedforward Neural Network using RandomG
 
 ### Evaluation
 Models were assessed based on Accuracy and Recall parameters
+
 The Higher the Accuracy , the better the model
+
 The Higher the Recall,the better the model as we want to reduce False Negative. It is bettter to classify false cases as postive and get human intervention for assessment.
 
 
