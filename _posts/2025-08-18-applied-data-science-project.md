@@ -22,11 +22,11 @@ Data preparation is categorised into 3 different portion.
 
 Data-Cleaning and Transfomation: We remove NA rows and also created a new variable called length of sentence.
 
-Text Pre-Processing: Lowercase text, remove mention/Hashtag, Remove "HttP:'/ annotated word, remove punmctuation/numbers and stopwords cleaning
+Text Pre-Processing: Lowercase text, remove mention/Hashtag, Remove "httP:'/ annotated word, remove punmctuation/numbers and stopwords cleaning
 
 Text Vectors Creation: We made use of Text Vectorisaion by Keras for our RNN(LSTM) Model and TF-IDF.
 
-Since the data is also skewd. We are did a SMOTE on the data to prevent data biasness.
+Since the data is also skewed. We are did a SMOTE on the data to prevent data biasness.
 
 ### Modelling
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
