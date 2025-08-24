@@ -67,6 +67,7 @@ LSTM originally was thought to be the better model but with sample of only 5000 
 
 More processing power is needed to process more data and deep neural network such as LSTM would definitely perform better because we are able only to performing machine learning with 10% of the dataset
 
+Conclusion: With the simple 2 hidden layer neural network, we could crawl the social media post and possibly detect potential mental-ill patients with an accuracy of 0.9.
 
 ## AI Ethics
 Due to the dataset being predominantly gotten online social media posts, the demographics are skewed towards younnger generations/tech-savy groups. This could cause biasness and representation.
