@@ -14,10 +14,19 @@ Our Team Business goal is to develop a data-driven solution that identifies earl
 I will be focusing on analysing social media posts to detect early signs of mental distress (e.g. anxiety, suicidal).
 ## Work Accomplished
 Below is a brief overview of the work done. Dataset is provided in the link below this page.
+
 <img width="1862" height="768" alt="image" src="https://github.com/user-attachments/assets/b7f2786c-743f-44d6-a511-8a19e6be9ffe" />
 
 ### Data Preparation
+Data preparation is categorised into 3 different portion.
 
+Data-Cleaning and Transfomation: We remove NA rows and also created a new variable called length of sentence.
+
+Text Pre-Processing: Lowercase text, remove mention/Hashtag, Remove "HttP:'/ annotated word, remove punmctuation/numbers and stopwords cleaning
+
+Text Vectors Creation: We made use of Text Vectorisaion by Keras for our RNN(LSTM) Model and TF-IDF.
+
+Since the data is also skewd. We are did a SMOTE on the data to prevent data biasness.
 
 ### Modelling
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
