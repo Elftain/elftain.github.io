@@ -11,7 +11,7 @@ We are a team in MOH Office for Healthcare Transformation (MOHT) that is tasked 
 
 Our Team Business goal is to develop a data-driven solution that identifies early warning signs and key contributing factors of mental health challenges among adults, with the aim of enabling timely intervention and reducing the risk of long-term mental health deterioration.
 
-I will be focusing on analysing social media posts to detect early signs of mental distress (e.g. anxiety, suicidal).
+This project will be focusing on analysing social media posts to detect early signs of mental distress (e.g. anxiety, suicidal).
 ## Work Accomplished
 Below is a brief overview of the work done. Dataset is provided in the link below this page.
 
