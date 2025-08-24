@@ -15,7 +15,7 @@ I will be focusing on analysing social media posts to detect early signs of ment
 ## Work Accomplished
 Below is a brief overview of the work done. Dataset is provided in the link below this page.
 
-<img width="1862" height="768" alt="image" src="https://github.com/user-attachments/assets/b7f2786c-743f-44d6-a511-8a19e6be9ffe" />
+<img width="1862" height="368" alt="image" src="https://github.com/user-attachments/assets/b7f2786c-743f-44d6-a511-8a19e6be9ffe" />
 
 ### Data Preparation
 Data preparation is categorised into 3 different portion.
