@@ -69,9 +69,12 @@ More processing power is needed to process more data and deep neural network suc
 
 
 ## AI Ethics
-Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
+Due to the dataset being predominantly gotten online social media posts, the demographics are skewed towards younnger generations/tech-savy groups. This could cause biasness and representation.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+As our final models are using deep-learning models, it could be a black-box for most users and this could limit our visibilites on how certain predictions are made. We could use SHAP or LIME to help interpret predictions and show which words have a heavier weight in the model.
+
+We must certainly be using Human-in-the-loop Validation as feedback loop for these high risk predictions as any wrong predictions even if its just 1 person could lead to detrimental effects on the person life
+
 
 ## Source Codes and Datasets
 The link to the python code and dataset is https://github.com/Elftain/itd214_proj. 
