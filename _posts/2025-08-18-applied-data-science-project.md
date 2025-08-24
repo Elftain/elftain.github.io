@@ -60,9 +60,13 @@ Random Forest and Decision both perform better than RNN(LSTM) but worse than the
 Hpyer-paramater tuning was thus performed for the best performing model the Feedforward Neural Network with RandomizedSearchCV but accuracy did not perform better after tuning probably with iterations too little.
 
 ## Recommendation and Analysis
-Explain the analysis and recommendations
 
-L
+Further hyperparameter fine-tuning can be done using Gridsearchcv which perform an exhaustive search or try RandomizedSearchCV with more iterations
+
+LSTM originally was thought to be the better model but with sample of only 5000 out of the 50000 data, it was unable to perform as data is too little to train LSTM before result in overfitting. Even the neural network model start to overfit at Epoch 6.
+
+More processing power is needed to process more data and deep neural network such as LSTM would definitely perform better because we are able only to performing machine learning with 10% of the dataset
+
 
 ## AI Ethics
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
